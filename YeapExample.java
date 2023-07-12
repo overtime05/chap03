@@ -6,7 +6,7 @@ public class YeapExample {
 		int year = (int)(Math.random()*5000 + 1);
 		
 		System.out.println(year);
-		String yeap = year%4==0 && year%100!=0 || year%400==0 ? "윤년" : "평년";
+		String leap = year%4==0 && year%100!=0 || year%400==0 ? "윤년" : "평년";
 				
 		System.out.println(yeap);
 		
